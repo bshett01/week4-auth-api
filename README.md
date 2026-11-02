@@ -88,7 +88,7 @@ tests/test_auth.py::test_reject_token[bad-signature] PASSED                     
 
 
 
-# File Dependency Diagram
+## File Dependency Diagram
 ```
 1     main.py
 2      │
@@ -129,7 +129,7 @@ tests/test_auth.py::test_reject_token[bad-signature] PASSED                     
 
 
 
-## Complete Request Flow**
+## Complete Request Flow
 ```
 1     1. User Registers
 2            │
