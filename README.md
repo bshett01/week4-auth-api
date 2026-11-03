@@ -11,6 +11,7 @@ Python version used is 3.13
        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
         .venv\Scripts\Activate.ps1
    Create a new file in VS Code called requirements.txt
+   ```
           fastapi==0.141.1
           uvicorn==0.52.4
           sqlalchemy==2.0.55
@@ -19,6 +20,7 @@ Python version used is 3.13
           email-validator==2.3.0
           pytest==9.1.1
           httpx==0.28.1
+   ```
    Install the packages:
          python -m pip install -r requirements.txt
 ## Generate JWT (Json web token)
